@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url(https://webcms.tpilet.ee/static/taustapilt.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  }
+
+.header {
+  background-color: #ffffff;
+  position: no-fixed;
+  height: 96px;
+  color: #666666bb;
+  text-align: center;
+  padding: 15px;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 15px;
+  position: absolute;
+}
+
+.lingid {
+  align-items: center;
+  font-size: 17px;
+  margin-left: 7.2cm;
+  white-space: nowrap;
+  text-indent: 8;
+}
+
+.lingid a:hover {
+  color: #ff5000;
+  text-underline-offset: 40px;
+  text-decoration: underline #ff5000;
+  text-decoration-thickness: 3px;
+}
+
+.osta {
+  text-underline-offset: 40px;
+  text-decoration: underline #ff5000;
+  text-decoration-thickness: 3px;
+}
+
+.header2 {
+  font-size: 15px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 5.5cm;
+  padding-right: 25px;
+  border-color: #666666bb;
+  border-right-width: 1px;
+  margin-bottom: -5px;
+  margin-top: -3px;
+}
+
+.header3 {
+  font-size: 16px;
+  padding-left: 25px;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.header3 a:hover {
+  color: #ff5000;
+}
+
+.valge {
+  background-color: white;
+  width: 400px;
+  height: 507px;
+  margin-top: -72px;
+  margin-left: -15px;
+}
+
+.suunad {
+  font-size: 15px;
+  margin-top: 12px;
+  justify-content: space-between;
+  padding-inline: 1.5cm;
+  white-space: nowrap;
+  border-bottom: 2px;
+  padding-bottom: 4px;
+}
+
+.joon {
+  border-image: linear-gradient(to right, #ff5100eb 20%, #fb8a09 100%) 1;
+  border-width: 2px;
+  border-style: solid;
+  margin-right: 200px;
+}
+
+.peatused {
+  font-size: 16px;
+}
+
+.kalender {
+  width: 355px;
+  height: 20px;
+}
+
+.nupp {
+  margin-top: 30px;
+  margin-left: 100px;
+  display: table-cell;
+  height: 55px;
+  width: 200px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.linnad3 {
+  text-align: left;
+}
+.linnad4 {
+  text-align: right;
+}
+
+.linnad2 {
+  text-align: left;
+ color:#666666bb;
+  margin-top: 12px;
+  margin-left: 57px;
+  margin-right: 57px;
+  font-size: 14px;
+  justify-content: space-between;
+  white-space: nowrap;
+  flex-direction: row;
+}
+
+.linnad2 a:hover {
+  color: black;
+}
