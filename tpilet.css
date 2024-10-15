@@ -105,10 +105,10 @@ body {
 }
 
 .nupp {
-  margin-top: 30px;
+  margin-top: 27px;
   margin-left: 100px;
   display: table-cell;
-  height: 55px;
+  height: 56px;
   width: 200px;
   font-weight: bold;
   align-items: center;
@@ -130,7 +130,7 @@ body {
 .linnad2 {
   text-align: left;
  color:#666666bb;
-  margin-top: 12px;
+  margin-top: 14px;
   margin-left: 57px;
   margin-right: 57px;
   font-size: 14px;
@@ -140,5 +140,5 @@ body {
 }
 
 .linnad2 a:hover {
-  color: black;
+  color: #362922;
 }
